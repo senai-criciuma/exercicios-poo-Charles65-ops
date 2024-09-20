@@ -1,3 +1,5 @@
+package Filme;
+
 import java.util.Scanner;
 
 public class Filme {
@@ -10,7 +12,7 @@ public class Filme {
 
     //Métodos imprimir dados do filme sem retorno void
     public void imprimirDados(){
-        System.out.println("Filme:"+nome);
+        System.out.println("Filme.Filme:"+nome);
         System.out.println("Duração do filme:"+duracaoEmMinutos);
         System.out.println("Gênero do filme:"+genero);
         System.out.println("Classificação do filme:"+classificacao);
@@ -27,7 +29,7 @@ public class Filme {
         classificacao = ler.next();
         System.out.println("Digite o gênero do filme:");
         genero = ler.next();
-        System.out.println("Filme incluido no Plano?");
+        System.out.println("Filme.Filme incluido no Plano?");
         incluidoNoPlano = ler.nextBoolean();
     }
 
